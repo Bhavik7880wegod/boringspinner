@@ -1,0 +1,90 @@
+BoringSpinner Extension — Proprietary, Source-Available License
+Copyright (c) 2026 BoringSpinner. All rights reserved.
+
+This is NOT open-source software. The BoringSpinner extension, including its
+source code, object code, design, structure, and accompanying materials (the
+"Software"), is the proprietary property of BoringSpinner ("BoringSpinner"). The
+Software is licensed, not sold, and is protected by copyright and other
+intellectual property laws. BoringSpinner makes the source publicly viewable for
+transparency only; doing so waives no rights and grants no license except as
+expressly stated below.
+
+1. RESERVATION OF RIGHTS
+   All right, title, and interest in and to the Software — including all
+   intellectual property rights — are and remain the exclusive property of
+   BoringSpinner. No rights are granted except as expressly stated here, and
+   none arise by implication, estoppel, or otherwise.
+
+2. SOURCE-VIEWING PERMISSION
+   BoringSpinner grants you a limited, personal, non-exclusive, non-transferable,
+   non-sublicensable, revocable permission to view and read the published source
+   solely for the following purposes:
+     (a) understanding what the Software does on your own device;
+     (b) verifying the privacy, security, and behavioral claims BoringSpinner
+         makes publicly about the Software (including the claim that the Software
+         does not read your code, prompts, files, or terminal contents); and
+     (c) reporting bugs or security issues to BoringSpinner in good faith.
+
+3. PROHIBITED USES
+   Except as expressly permitted in Section 2, you may NOT, and may not permit
+   any third party to:
+     (a) copy, reproduce, fork, mirror, redistribute, or publish the Software,
+         in whole or in part, in any form;
+     (b) modify, adapt, translate, port, or create derivative works of the
+         Software;
+     (c) compile, build, distribute, or run a substantially similar or
+         competing product derived from the Software or its design;
+     (d) use the Software, or any portion of its source, in a commercial
+         product, service, or offering — including but not limited to ad
+         networks, browser extensions, IDE plugins, CLI tools, payout services,
+         or developer monetization platforms;
+     (e) remove, obscure, or alter any copyright, trademark, license, or
+         attribution notices in the Software;
+     (f) use the Software's source code to train, fine-tune, or evaluate any
+         machine-learning model, large language model, or AI system; or
+     (g) sublicense, sell, rent, lease, or transfer any rights granted under
+         this license to any third party.
+
+4. INSTALLATION AND USE OF THE EXTENSION
+   The act of installing and using the official BoringSpinner extension from
+   the Visual Studio Code Marketplace, Open VSX, or another authorized
+   distribution channel is governed by BoringSpinner's Terms of Service and
+   Privacy Policy at https://boringspinner.com/terms and
+   https://boringspinner.com/privacy — not by this License. This License
+   governs viewing the source code repository only.
+
+5. NO TRADEMARK LICENSE
+   This License does not grant any rights to use BoringSpinner's name, logo,
+   trademarks, trade dress, or brand identity. The orange spinner ring and the
+   "BoringSpinner" name are trademarks of BoringSpinner.
+
+6. CONTRIBUTIONS
+   By submitting a pull request, issue, comment, or any other contribution to
+   this repository, you irrevocably assign to BoringSpinner all right, title,
+   and interest in such contribution and agree it may be used by BoringSpinner
+   under any license without restriction or attribution. You represent that
+   you have the right to make such assignment.
+
+7. NO WARRANTY
+   THE SOFTWARE IS PROVIDED "AS IS," WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+   IMPLIED, INCLUDING BUT NOT LIMITED TO WARRANTIES OF MERCHANTABILITY, FITNESS
+   FOR A PARTICULAR PURPOSE, NONINFRINGEMENT, OR THAT THE SOFTWARE WILL BE
+   ERROR-FREE.
+
+8. LIMITATION OF LIABILITY
+   IN NO EVENT SHALL BORINGSPINNER OR ITS CONTRIBUTORS BE LIABLE FOR ANY CLAIM,
+   DAMAGES, OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT, OR
+   OTHERWISE, ARISING FROM, OUT OF, OR IN CONNECTION WITH THE SOFTWARE OR THE
+   USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+9. TERMINATION
+   Any rights granted to you under this License terminate automatically and
+   immediately if you breach any of its terms. Upon termination, you must
+   delete any local copies of the Software.
+
+10. GOVERNING LAW
+    This License is governed by the laws of the jurisdiction in which
+    BoringSpinner is organized, without regard to its conflict-of-laws
+    principles.
+
+Questions about this License: support@boringspinner.com

@@ -1,0 +1,9 @@
+node_modules/
+dist/
+*.vsix
+media/icon.png
+.DS_Store
+.vsce-pat-tmp
+.env
+.env.*
+!.env.example

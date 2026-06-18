@@ -1,0 +1,109 @@
+{
+  "name": "boringspinner",
+  "displayName": "BoringSpinner",
+  "publisher": "boringspinner",
+  "version": "0.3.14",
+  "license": "SEE LICENSE IN LICENSE",
+  "description": "BoringSpinner \u2014 a one-line sponsored slot lives in the wait between your prompt and the AI's answer. Half of each auction price is credited to the developer who hosted the slot during their session. Privacy-first, source-available, opt-in targeting.",
+  "icon": "media/icon.png",
+  "homepage": "https://boringspinner.com",
+  "bin": {
+    "boringspinner": "./dist/cli.js"
+  },
+  "keywords": [
+    "claude code",
+    "cursor",
+    "codex",
+    "spinner",
+    "ads",
+    "developer earnings",
+    "passive income"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/boringspinner/boringspinner"
+  },
+  "bugs": {
+    "url": "https://github.com/boringspinner/boringspinner/issues"
+  },
+  "galleryBanner": {
+    "color": "#0D1117",
+    "theme": "dark"
+  },
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "main": "./dist/extension.js",
+  "activationEvents": [
+    "onStartupFinished"
+  ],
+  "scripts": {
+    "build": "node esbuild.mjs",
+    "test": "vitest run",
+    "package": "node scripts/package.mjs"
+  },
+  "contributes": {
+    "commands": [
+      {
+        "command": "coads.signIn",
+        "title": "BoringSpinner: Sign in"
+      },
+      {
+        "command": "coads.signOut",
+        "title": "BoringSpinner: Sign out"
+      },
+      {
+        "command": "coads.restore",
+        "title": "BoringSpinner: Restore Claude Code"
+      },
+      {
+        "command": "coads.status",
+        "title": "BoringSpinner: Show status"
+      },
+      {
+        "command": "coads.menu",
+        "title": "BoringSpinner: Menu"
+      },
+      {
+        "command": "coads.diagnose",
+        "title": "BoringSpinner: Diagnose"
+      },
+      {
+        "command": "coads.editConfig",
+        "title": "BoringSpinner: Edit config"
+      },
+      {
+        "command": "coads.openDashboard",
+        "title": "BoringSpinner: Open dashboard"
+      },
+      {
+        "command": "coads.uninstall",
+        "title": "BoringSpinner: Uninstall"
+      }
+    ],
+    "configuration": {
+      "title": "BoringSpinner",
+      "properties": {
+        "coads.viewThresholdSeconds": {
+          "type": "number",
+          "default": 3,
+          "minimum": 1,
+          "maximum": 600,
+          "description": "Visible seconds before an ad counts as 'shown'. Server-overridable."
+        },
+        "coads.enabled": {
+          "type": "boolean",
+          "default": true
+        }
+      }
+    }
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.0",
+    "@types/vscode": "~1.80.0",
+    "@vscode/vsce": "^2.31.0",
+    "esbuild": "^0.23.0",
+    "typescript": "^5.5.0",
+    "vitest": "^2.0.0"
+  }
+}

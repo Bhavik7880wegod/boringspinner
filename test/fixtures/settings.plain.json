@@ -1,0 +1,7 @@
+{
+  "model": "claude-sonnet-4",
+  "theme": "dark",
+  "permissions": {
+    "allow": ["Bash", "Read"]
+  }
+}

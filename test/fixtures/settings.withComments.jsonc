@@ -1,0 +1,10 @@
+{
+  // user's preferred model — do not change
+  "model": "claude-opus-4",
+  /* block comment: theme settings below */
+  "theme": "dark",
+  "env": {
+    "FOO": "bar" // trailing inline comment with a } brace and "quote"
+  },
+  "verbose": true
+}
